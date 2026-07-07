@@ -14,7 +14,7 @@ EMBEDDING_MODEL_NAME = "distiluse-base-multilingual-cased-v2"
 GENERATION_MODEL_NAME = "llama-3.3-70b-versatile"
 
 # Modèle de modération (famille "safeguard" de Groq, spécialisé détection d'abus)
-MODERATION_MODEL_NAME = "meta-llama/Llama-Guard-4-12B"
+MODERATION_MODEL_NAME = "openai/gpt-oss-120b"
 
 # Chemin où ChromaDB persiste ses données sur disque
 VECTOR_DB_PATH = os.path.join(os.path.dirname(__file__), "chroma_db")
