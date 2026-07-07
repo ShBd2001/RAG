@@ -71,6 +71,13 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+.env
+venv/
+__pycache__/
+*.pyc
+chroma_db/
+.DS_Store
+
 # PyBuilder
 .pybuilder/
 target/
